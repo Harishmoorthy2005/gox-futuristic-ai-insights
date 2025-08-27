@@ -19,7 +19,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Navigation onSectionClick={scrollToSection} />
-      <main className="pt-16">
+      <main className="pt-20">
         <HeroSection />
         <AboutSection />
         <HumAInsSection />
