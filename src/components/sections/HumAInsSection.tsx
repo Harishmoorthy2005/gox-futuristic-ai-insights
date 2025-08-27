@@ -80,7 +80,7 @@ export function HumAInsSection() {
               ))}
             </div>
             
-            <Button variant="cta" size="lg" className="group">
+            <Button variant="cta" size="lg" className="group" onClick={() => window.location.href = '/humain'}>
               Explore HumAIn's
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>

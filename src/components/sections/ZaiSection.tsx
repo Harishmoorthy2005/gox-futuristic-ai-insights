@@ -14,7 +14,8 @@ import {
   TrendingUp,
   Award,
   Eye,
-  Smile
+  Smile,
+  ArrowRight
 } from "lucide-react";
 import aiRecruitment from "@/assets/ai-recruitment.png";
 
@@ -118,7 +119,7 @@ export function ZaiSection() {
               comprehensive candidate assessment platform ever created. From real-time biometric 
               analysis to deep psychological insights, Zai ensures you make the right hiring decisions.
             </p>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4 mb-6">
               <div className="text-center p-4 bg-gradient-card rounded-lg border border-border/50">
                 <div className="text-2xl font-bold text-primary">95%</div>
                 <div className="text-sm text-muted-foreground">Accuracy Rate</div>
@@ -128,6 +129,10 @@ export function ZaiSection() {
                 <div className="text-sm text-muted-foreground">Time Saved</div>
               </div>
             </div>
+            <Button variant="cta" size="lg" className="group w-full" onClick={() => window.location.href = '/zai'}>
+              Explore Zai →
+              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+            </Button>
           </div>
         </div>
 
