@@ -25,13 +25,6 @@ export function Footer() {
       { label: "Community", href: "/community" },
       { label: "Status", href: "/status" }
     ],
-    Legal: [
-      { label: "Privacy Policy", href: "/privacy" },
-      { label: "Terms of Service", href: "/terms" },
-      { label: "Cookie Policy", href: "/cookies" },
-      { label: "GDPR", href: "/gdpr" },
-      { label: "Security", href: "/security" }
-    ]
   };
 
   const socialLinks = [
