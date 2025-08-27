@@ -38,10 +38,8 @@ export function Navigation({ onSectionClick }: NavigationProps) {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 hover:scale-105 transition-spring">
-            <div className="bg-background border border-border rounded-lg p-2">
-              <img src={goxLogo} alt="Go-X Logo" className="h-6 w-auto" />
-            </div>
-            <span className="text-xl font-bold text-foreground">
+            <img src={goxLogo} alt="Go-X Logo" className="h-8 w-auto" />
+            <span className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
               Go-X
             </span>
           </Link>
